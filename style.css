@@ -1,0 +1,61 @@
+body{
+    display:flex;
+    justify-content: center;
+}
+
+.tarjetaPresentacion{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 21px 0px 21px 21px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+
+.tituloPrincipal{
+    color: #023047;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.tituloSecundario{
+    color: #023047;
+    font-weight: bold; 
+    font-size: 20px; 
+}
+
+.tituloTercero{
+    font-size: 18px;
+    color: #219ebc;
+}
+
+.imagenPrincipal{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.listaDesordenada{
+    text-decoration: none;
+    list-style: none;
+    color: #4a5759;
+    text-align: center;
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0;
+}
+
+p, h4{
+    color: #4a5759;
+    text-align: center;
+}
+
+a{
+    color: #8ecae6;
+}
+
